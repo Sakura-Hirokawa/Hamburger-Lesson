@@ -53,6 +53,9 @@ h1 {
 .menu-trigger span:nth-child(3) {
   bottom: 0;
 }
+
+/* .menu-trigger.active span:nth-child(1)～(3)の各CSSによって、
+activeクラスになったときにアイコンが「×」になるように設定 */
 .menu-trigger.active span:nth-child(1) {
   -webkit-transform: translateY(20px) rotate(-45deg);
   transform: translateY(20px) rotate(-45deg);
@@ -67,7 +70,7 @@ h1 {
   background-color: #fff;
 }
 /* ------------------------ */
-/* ------ spメニュー ------ */
+/* ------ spメニュー(スマホ) ------ */
 /* ------------------------ */
 #sp-menu {
   position: fixed;
